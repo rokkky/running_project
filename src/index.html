@@ -87,6 +87,29 @@
         </div>
     </div>
 
+    <div class="consultation">
+        <div class="container">
+            <h2 class="title title_left">
+                Получите бесплатную консультацию<br>
+                по подбору пульсометра 
+            </h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки<br>
+                и мы перезвоним вам в течении 10 минут
+            </div>
+                <!-- First input</label> Служит для связывания инпута, назначения ярылка для него, плюс позволяет стилизовать поле. Инпут может быть прописан сразу в лейбл, тогда без for и id(id-только один на странице)        -->  
+                <!-- В action обычно добавляется какой-либо РНР-код, связаный с бэкенд частью сайта.-->
+                <!--В инпут прописывается тип переключателя\поля, который будет использован. http://htmlbook.ru/html/input/type - тут подробнее. связывает действия пользователя с сайтом.-->
+                <!--placeholder - текст, который будет в инпуте по умолчанию. Value - заранее введенный текст
+                ПРИ ПРОПИСЫВАНИИ ТЕГА BUTTON ВНУТРИ FORM ОН ОТВЕЧАЕТ ЗА ОТПРАВКУ ДАННЫХ НА СЕРВЕР, ПРИНИМАЯ TYPE="SUBMIT name="name""-->            
+            <form class="feed-form" action="#"> 
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон" type="number"> 
+                <input name="email" required placeholder="Ваш E-mail" type="email">
 
+                <button class="button button_submit">Заказать консультацию</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

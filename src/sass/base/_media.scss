@@ -31,6 +31,21 @@
             font-size: 13px;
         }
     }
+    .consultation {
+        padding: 60px 0 20px 0;
+        min-height: 620px;
+        .title_left {
+            text-align: center;
+            font-size: 30px;   
+        }
+        &__descr {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .feed-form {
+            margin: 30px auto;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -86,6 +101,16 @@
         }
         &__icon {
             width: 270px;
+        }
+    }
+    .consultation {
+        .title_left {
+            font-size: 24px;   
+        }
+        &__descr {
+            margin-top: 25px;
+            font-size: 18px;
+            text-align: center;
         }
     }
 }
